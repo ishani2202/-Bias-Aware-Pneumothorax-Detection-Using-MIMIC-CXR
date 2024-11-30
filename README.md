@@ -39,11 +39,12 @@ The analysis uses the **MIMIC-CXR** dataset, which contains:
 - Loads and visualizes X-ray images for exploratory analysis.
 
 ### **2. Model Evaluation**
-- Loads a pre-trained PyTorch model for pneumothorax detection.
+- Loads a pre-trained DenseNet-121 model, commonly used for medical image classification.
+- Uses additional PyTorch models like ResNet-50 for comparative analysis.
 - Generates predictions and computes:
-  - **AUROC (Area Under the Receiver Operating Characteristic Curve):** Measures classification performance.
-  - **Precision and Recall:** Evaluates prediction accuracy and ability to identify true positives.
-  - **Confusion Matrix:** Summarizes prediction outcomes.
+  - AUROC (Area Under the Receiver Operating Characteristic Curve): Measures classification performance.
+  - Precision and Recall: Evaluates prediction accuracy and ability to identify true positives.
+  - Confusion Matrix: Summarizes prediction outcomes.
 
 ### **3. Error Analysis**
 - Reviews incorrect predictions using:
@@ -86,7 +87,7 @@ The analysis uses the **MIMIC-CXR** dataset, which contains:
 
 ### **Key Findings**
 1. **Model Performance:**
-   - High AUROC on the test set indicates good overall classification ability.
+   - The DenseNet-121 model achieves high AUROC on the test set, indicating good classification ability.
    - Precision and recall values demonstrate effectiveness but room for improvement.
 
 2. **Bias Detection:**
@@ -107,10 +108,6 @@ The analysis uses the **MIMIC-CXR** dataset, which contains:
 - Use advanced natural language processing to preprocess radiology reports.
 - Validate findings in a real-world clinical setting.
 
----
-
-## **Contributing**
-Contributions are welcome! Fork this repository, make changes, and submit a pull request.
 
 ---
 
