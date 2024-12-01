@@ -1,5 +1,5 @@
 
-# **"Bias-Aware Pneumothorax Detection Using MIMIC-CXR: Evaluating and Enhancing Model Robustness"**
+# **Bias-Aware Pneumothorax Detection Using MIMIC-CXR: Evaluating and Enhancing Model Robustness**
 
 In this project, I analyzed the performance of a pre-trained model designed to diagnose [Pneumothorax](https://www.mayoclinic.org/diseases-conditions/pneumothorax/symptoms-causes/syc-20350367#:~:text=A%20pneumothorax%20(noo%2Dmoe%2D,a%20portion%20of%20the%20lung.) from chest X-rays. Pneumothorax, or collapsed lung, is a potentially life-threatening condition, making accurate and reliable diagnostic models essential for clinical workflows.
 
