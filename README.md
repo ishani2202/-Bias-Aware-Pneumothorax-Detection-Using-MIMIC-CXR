@@ -1,7 +1,9 @@
 
 # Pneumothorax Detection with MIMIC-CXR Dataset
 
-This repository showcases the evaluation and analysis of a pre-trained machine learning model for detecting pneumothorax (collapsed lung) using the [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/) dataset. The notebook explores the model's performance, identifies potential biases, and tests approaches to improve its fairness and robustness.
+In this project, I analyzed the performance of a pre-trained model designed to diagnose [Pneumothorax](https://www.mayoclinic.org/diseases-conditions/pneumothorax/symptoms-causes/syc-20350367#:~:text=A%20pneumothorax%20(noo%2Dmoe%2D,a%20portion%20of%20the%20lung.) from chest X-rays. Pneumothorax, or collapsed lung, is a potentially life-threatening condition, making accurate and reliable diagnostic models essential for clinical workflows.
+
+In this problem, I have worked with the [`MIMIC-CXR`](https://physionet.org/content/mimic-cxr/2.0.0/) dataset, which contains chest X-rays and radiology reports for patients at Beth Israel Deaconess Medical Center. The full dataset is accessible in two formats, one in [DICOM format](https://physionet.org/content/mimic-cxr/2.0.0/) with the full, de-identified free-text radiology reports, and one in a preprocessed, compressed [JPG format](https://physionet.org/content/mimic-cxr-jpg/2.0.0/) with structured labels derived from the radiology reports. 
 
 ---
 
